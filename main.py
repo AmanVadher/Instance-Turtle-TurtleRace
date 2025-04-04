@@ -1,21 +1,21 @@
 from turtle import Turtle,Screen
 
-t=Turtle()
+tim=Turtle()
 s=Screen()
 
-t.width(2)
+tim.width(2)
 
 def move_forward():
-    t.fd(10)
+    tim.fd(10)
 
 def turn_left():
-    t.left(10)
+    tim.left(10)
 
 def move_back():
-    t.backward(10)
+    tim.backward(10)
 
 def turn_right():
-    t.right(10)
+    tim.right(10)
 
 
 s.listen()
