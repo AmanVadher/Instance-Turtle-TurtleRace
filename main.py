@@ -1,7 +1,7 @@
 from turtle import Turtle,Screen
 
 tim=Turtle()
-s=Screen()
+sc=Screen()
 
 tim.width(2)
 
@@ -18,10 +18,10 @@ def turn_right():
     tim.right(10)
 
 
-s.listen()
-s.onkey(key="w",fun=move_forward)
-s.onkey(key="s",fun=move_back)
-s.onkey(key="a",fun=turn_left)
-s.onkey(key="d",fun=turn_right)
-s.onkey(key="c",fun=t.reset)
-s.exitonclick()
+sc.listen()
+sc.onkey(key="w",fun=move_forward)
+sc.onkey(key="s",fun=move_back)
+sc.onkey(key="a",fun=turn_left)
+sc.onkey(key="d",fun=turn_right)
+sc.onkey(key="c",fun=t.reset)
+sc.exitonclick()
